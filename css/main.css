@@ -1,0 +1,74 @@
+body {
+    background-color: #623899;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    font-family: 'Otomanopee One', sans-serif;
+    text-align: center;
+    color: white;
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    background: none;
+    border: 1px solid black;
+    padding: 13px 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+button:focus {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    margin: 0 auto 15px;
+}
+
+table {
+    margin: 20px auto;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+td {
+    padding: 2px;
+}
+
+td div {
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 75px;
+    width: 75px;
+    background-color: #3E215D;
+    transition: background-color 0.2s;
+    line-height: 75px;
+}
+
+.stopwatch {
+    font-size: 2.5rem;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    width: 209px;
+    margin: 20px auto 0;
+    text-align: center;
+    position: relative;
+    right: 30px;
+}
+
+.levels {
+    font-size: 20px;
+    color: black;
+}
+
+.info {
+    color: black;
+    margin-top: 20px;
+}

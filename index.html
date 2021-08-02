@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Touch Numbers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Orbitron:wght@600&family=Otomanopee+One&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <h1>Touch Numbers</h1>
+    <div class="levels">
+      <input
+        type="radio"
+        name="level"
+        value="16"
+        checked
+        class="checkbox"
+        onclick="init(this)"
+      />
+      <label>Easy (16)</label>
+      <input type="radio" name="level" value="25" onclick="init(this)" />
+      <label>Medium (25)</label>
+      <input type="radio" name="level" value="36" onclick="init(this)" />
+      <label>Hard (36)</label>
+    </div>
+    <div class="stopwatch">00:00:000</div>
+    <div class="info">Click the first number to start.</div>
+
+    <table style="border-collapse: collapse">
+      <tbody></tbody>
+    </table>
+    <script src="js/main.js"></script>
+  </body>
+</html>
